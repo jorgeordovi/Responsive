@@ -1,0 +1,45 @@
+*{
+text-align: center;
+box-shadow: 
+}
+h1{
+	background: #85D68B;
+	text-align: center; 
+	font-family: verdana;
+}
+h2{background: #85D68B;
+	text-align: center; 
+	font-family: verdana;
+	padding: 10px
+}
+
+p{
+	font-style: italic;font-family: verdana;
+	
+}
+#container {
+	margin: 0 auto;
+position: absolute;
+width: 400px;
+height: auto;
+background-color: #819532
+;
+opacity: 0.8;	
+border-radius: 15px;
+}
+article{
+width: 400px;
+height: auto;
+background-color: #A88C38;
+opacity: 0.8;
+}
+footer{
+	text-align:inherit;
+	height: 100px;
+	background-color: #A88C38;
+	border-bottom-right-radius: 15px;
+}
+@media screen and (min-width:500px) {
+	
+}
+
