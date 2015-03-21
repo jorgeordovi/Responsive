@@ -1,0 +1,32 @@
+h1{
+	background: #85D68B;
+	text-align: center; 
+}
+h2{background: #85D68B;
+	text-align: center; 
+}
+
+p{
+	font-style: italic;
+}
+#container {
+position: absolute;
+width: 400px;
+height: 500px;
+background-color: #BCC247;
+opacity: 0.8;	
+}
+article{
+width: 400px;
+height: auto;
+background-color: #A88C38;
+opacity: 0.8;
+}
+footer{
+	text-align: center;
+	height: auto;
+}
+@media screen  {
+	
+}
+

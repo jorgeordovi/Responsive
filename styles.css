@@ -1,0 +1,14 @@
+h1{
+	background: #85D68B;
+	text-align: center; 
+}
+
+p{
+	font-style: italic;
+}
+#container {
+width: 400px;
+height: 200px;
+background-color: #BCC247;
+opacity: 0.8;	
+}
