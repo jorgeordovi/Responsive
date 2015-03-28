@@ -19,13 +19,30 @@ p{
 }
 #container {
 	margin: 0 auto;
+position: relative;
+width: 400px;
+height: auto;
+background-color: #819532;
+opacity: 0.8;	
+border-radius: 15px;
+}
+.container{
+	position: absolute;
 position: absolute;
 width: 400px;
 height: auto;
-background-color: #819532
-;
+background-color: #819532;
+opacity: 0.8;	
+border-radius: 15px;	
+}
+section{
+	margin: 0 auto;
+height: auto;
+background-color: #819532;
 opacity: 0.8;	
 border-radius: 15px;
+padding: 10px
+
 }
 article{
 width: 400px;

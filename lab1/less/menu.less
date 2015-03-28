@@ -1,0 +1,29 @@
+.borderRadius { border-radius: 10px}
+
+.navigation 
+{
+background: #143352;
+height: 32px;
+padding: 5px 0;
+border-bottom: 2px solid black;
+	li 	{
+		display: inline-block;
+		margin: 5px;
+		list-style: none;
+		font-size: 1.1em;
+
+		a,a:active
+			{
+				padding: 5px;
+				text-decoration: none;
+				color: #fff;
+				.borderRadius; // es posible llamar una clase dentro de less
+				&:active
+				{
+					color: navy;
+					background: #ccc;
+				}
+				&.first {margin-left: 3em}
+			}
+	}
+}
